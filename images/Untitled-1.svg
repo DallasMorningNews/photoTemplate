@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="9.335px" height="24.667px" viewBox="0 0 9.335 24.667" enable-background="new 0 0 9.335 24.667" xml:space="preserve">
+<path fill="#FFFFFF" d="M9,5c0,0.552-0.508,1-1.135,1H1.052C0.425,6,0,5.552,0,5V1c0-0.552,0.425-1,1.052-1h6.813
+	C8.492,0,9,0.448,9,1V5z"/>
+<polyline fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	5,5.521 7.208,7.729 7.208,5.521 "/>
+<path fill="#545454" d="M7.755,23.594c-0.217,0-0.434-0.084-0.6-0.25l-5.896-5.896c-0.332-0.332-0.332-0.869,0-1.2
+	s0.869-0.332,1.2,0l5.896,5.896c0.332,0.332,0.332,0.869,0,1.199C8.189,23.51,7.973,23.594,7.755,23.594z"/>
+<path fill="#545454" d="M1.01,22.744c0-0.217,0.083-0.434,0.249-0.6l5.896-5.896c0.332-0.332,0.869-0.332,1.2,0s0.332,0.869,0,1.2
+	l-5.896,5.896c-0.332,0.332-0.869,0.332-1.2,0C1.093,23.178,1.01,22.961,1.01,22.744z"/>
+</svg>
