@@ -6,14 +6,14 @@ $(document).ready(function() {
 	var $windowWidth = $(window).width();
 
 
-	var photos = ["images/dent_hero.jpg", "images/dent_jail.jpg", "images/dent_jail2.jpg", "images/dent_zak.jpg", "images/dent_books.jpg"]
+	var photos = ["images/dent_hero.jpg", "images/dent_jail.jpg", "images/dent_jail2.jpg", "images/dent_zak.jpg", "images/dent_books.jpg"];
 	var cutlines= [
 				"This is cutline 1",
 				"This is cutline 2",
 				"This is cutline 3",
 				"This is cutline 4",
 				"This is cutline 5",
-				]
+				];
 
 	$.each(photos, function(i,v) {
 		var content = "<div class='photoBlock' id='photoBlock" + i + "'>";
@@ -101,8 +101,6 @@ $(document).ready(function() {
 		}, 500);
 		
 	})
-
-
 });
 
 
