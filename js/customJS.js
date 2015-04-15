@@ -5,8 +5,21 @@ $(document).ready(function() {
 	var $windowHeight = $(window).height();
 	var $windowWidth = $(window).width();
 
+	$('#splash').css('height', $windowHeight);
 
-	var photos = ["images/dent_hero.jpg", "images/dent_jail.jpg", "images/dent_jail2.jpg", "images/dent_zak.jpg", "images/dent_books.jpg"];
+	$('.unSplash').click(function() {
+		$('#splash').fadeOut(500);
+	})
+
+	var largePhotos = ["images/dent_hero.jpg", "images/dent_jail.jpg", "images/dent_jail2.jpg", "images/dent_zak.jpg", "images/dent_books.jpg"];
+	var smallPhotos = []
+
+	if ($windowWidth > 1000) {
+		photos = largePhotos;
+	} else {
+		photos = smallPhotos;
+	}
+
 	var cutlines= [
 				"This is cutline 1",
 				"This is cutline 2",
@@ -23,6 +36,8 @@ $(document).ready(function() {
 	})
 
 	$.each($('.photoBlock'), function(i,v) {
+
+
 		$(this).css('background-image', "url('" + photos[i] + "')");
 		$(this).css('z-index', 100 - i);
 	});
