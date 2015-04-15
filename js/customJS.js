@@ -20,12 +20,13 @@ $(document).ready(function() {
 		photos = smallPhotos;
 	}
 
-	var cutlines= [
+var cutlines= [
 				"This is cutline 1",
 				"This is cutline 2",
 				"This is cutline 3",
 				"This is cutline 4",
 				"This is cutline 5",
+				"This is cutline 6"
 				];
 
 	$.each(photos, function(i,v) {
@@ -94,6 +95,12 @@ $(document).ready(function() {
 		$('.photoBlock').fadeIn(500)
 		$('html').addClass('vertical');
 		$('.photoBlock').css('height', $windowWidth * .67);
+		$.each($('.photoBlock'), function(k, v) {
+			var cutlineHeight = $(this).find('p').height();
+			$(this).css('margin-bottom', cutlineHeight + 24);
+			$(this).find('p').css('bottom', cutlineHeight * -1);
+			console.log(cutlineHeight);
+		})
 	}
 
 	function determineDisplay() {
